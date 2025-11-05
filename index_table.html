@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mhasiswa Berprestasi</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f9f9f9;
+            margin: 30px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        thead {
+            background-color: #133f72;
+            color: white;
+        }
+        tfoot {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        tbody tr:hover {
+            background-color: #e8f5e9;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+<h1>Daftar Mahasiswa Berprestasi Universitas Nusantara</h1>
+    <table>
+    <caption>Data Mahasiswa Berprestasi</caption>
+
+    <thead>
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col" colspan="2">Nama Mahasiswa</th>
+            <th scope="col">Program Studi</th>
+            <th scope="col">IPK</th>
+            <th scope="col">Prestasi</th>
+            <th scope="col">Tahun</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Rifky</td>
+            <td>x Kairi</td>
+            <td>Desain Komunikasi Visual</td>
+            <td rowspan="2">3.95</td>
+            <td>Juara 1 Lomba Animasi Tingkat Provinsi</td>
+            <td>2025</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Bejo</td>
+            <td>Pratama</td>
+            <td>Informatika</td>
+            <td>Juara 1 Lomba MTQ Tingkat Nasional</td>
+            <td>2025</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Putri</td>
+            <td>Padang</td>
+            <td>Sistem Informasi</td>
+            <td>3.88</td>
+            <td>Lomba UI/UX Nasional</td>
+            <td>2025</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Lutfi</td>
+            <td>Akbar</td>
+            <td>Teknik Komputer</td>
+            <td>3.62</td>
+            <td>Olimpiade Sains Nasional</td>
+            <td>2024</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Giyo</td>
+            <td>Saputra</td>
+            <td>Informatika</td>
+            <td>3.50</td>
+            <td>Lomba Robotik</td>
+            <td>2025</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="7">Total Mahasiswa: 5</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
